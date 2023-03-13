@@ -2,7 +2,7 @@ Feature: Autobahn Sign Up Page
 
   Scenario: As a user, I can create new account
   
-    Given I am on the "login" page
+    Given I am on the "signup" page
     When user input a valid random email
     And user input a random strong password 
     And user click sign up button

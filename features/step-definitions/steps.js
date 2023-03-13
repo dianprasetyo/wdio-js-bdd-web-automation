@@ -3,7 +3,7 @@ const { Given, When, Then } = require("@wdio/cucumber-framework");
 const signUpPage = require("../pageobjects/signup.page");
 
 const pages = {
-  login: signUpPage,
+  signup: signUpPage,
 };
 
 Given(/^I am on the "(\w+)" page$/, async (page) => {
